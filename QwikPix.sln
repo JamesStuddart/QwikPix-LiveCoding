@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QwikPix.Core", "QwikPix.Core", "{58D92E05-F339-45C4-9A12-B9116A733AD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QwikPix.Ui", "QwikPix.Ui", "{009D2E36-6B31-4F33-931D-4CBCA7A27D96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{96B86CF8-C3E8-47A1-BA00-4C55CB05083F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Debonair", "..\..\Other\OpenSource\Debonair\Debonair.Data\Debonair.csproj", "{88531FFB-BF5D-4ED4-9DDB-148A477DB40E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Debonair.Provider.MsSql", "..\..\Other\OpenSource\Debonair\Debonair.Provider.MsSql\Debonair.Provider.MsSql.csproj", "{705EE4F8-04AE-4812-A698-4A119538F298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QwikPix.Business", "QwikPix.Business\QwikPix.Business.csproj", "{6D10ED7E-E0B2-477A-8785-035B9271F3F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Tests", "_Tests", "{037A5023-51F5-4067-89F5-AC88A2467394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QwikPix.Business.Tests", "QwikPix.Business.Tests\QwikPix.Business.Tests.csproj", "{42ACBA87-ECB8-4C18-9381-65AD249707B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QwikPix.Entities", "QwikPix.Entities\QwikPix.Entities.csproj", "{9ABEDF83-08B0-4AB6-889F-F2EAB2A59761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QwikPix.Api", "QwikPix.Api\QwikPix.Api.csproj", "{9CDED9BE-054C-4EF0-BA45-94B234DDEAF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88531FFB-BF5D-4ED4-9DDB-148A477DB40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88531FFB-BF5D-4ED4-9DDB-148A477DB40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88531FFB-BF5D-4ED4-9DDB-148A477DB40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88531FFB-BF5D-4ED4-9DDB-148A477DB40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705EE4F8-04AE-4812-A698-4A119538F298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705EE4F8-04AE-4812-A698-4A119538F298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705EE4F8-04AE-4812-A698-4A119538F298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705EE4F8-04AE-4812-A698-4A119538F298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D10ED7E-E0B2-477A-8785-035B9271F3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D10ED7E-E0B2-477A-8785-035B9271F3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D10ED7E-E0B2-477A-8785-035B9271F3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D10ED7E-E0B2-477A-8785-035B9271F3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42ACBA87-ECB8-4C18-9381-65AD249707B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42ACBA87-ECB8-4C18-9381-65AD249707B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42ACBA87-ECB8-4C18-9381-65AD249707B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42ACBA87-ECB8-4C18-9381-65AD249707B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABEDF83-08B0-4AB6-889F-F2EAB2A59761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABEDF83-08B0-4AB6-889F-F2EAB2A59761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABEDF83-08B0-4AB6-889F-F2EAB2A59761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABEDF83-08B0-4AB6-889F-F2EAB2A59761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CDED9BE-054C-4EF0-BA45-94B234DDEAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDED9BE-054C-4EF0-BA45-94B234DDEAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDED9BE-054C-4EF0-BA45-94B234DDEAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDED9BE-054C-4EF0-BA45-94B234DDEAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88531FFB-BF5D-4ED4-9DDB-148A477DB40E} = {96B86CF8-C3E8-47A1-BA00-4C55CB05083F}
+		{705EE4F8-04AE-4812-A698-4A119538F298} = {96B86CF8-C3E8-47A1-BA00-4C55CB05083F}
+		{6D10ED7E-E0B2-477A-8785-035B9271F3F7} = {58D92E05-F339-45C4-9A12-B9116A733AD8}
+		{42ACBA87-ECB8-4C18-9381-65AD249707B4} = {037A5023-51F5-4067-89F5-AC88A2467394}
+		{9ABEDF83-08B0-4AB6-889F-F2EAB2A59761} = {58D92E05-F339-45C4-9A12-B9116A733AD8}
+		{9CDED9BE-054C-4EF0-BA45-94B234DDEAF4} = {009D2E36-6B31-4F33-931D-4CBCA7A27D96}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BE6576E-1418-42DE-A9EA-4FD328726585}
+	EndGlobalSection
+EndGlobal

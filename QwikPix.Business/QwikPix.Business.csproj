@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Other\OpenSource\Debonair\Debonair.Data\Debonair.csproj" />
+    <ProjectReference Include="..\..\..\Other\OpenSource\Debonair\Debonair.Provider.MsSql\Debonair.Provider.MsSql.csproj" />
+    <ProjectReference Include="..\QwikPix.Entities\QwikPix.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
